@@ -1,0 +1,41 @@
+{
+    "workbench.editor.showTabs": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "editor.tokenColorCustomizations": {
+        "[One Dark Pro]": {
+            "functions": "#43b4ff",
+            "variables": "#19d9e7",
+            "keywords": "#ff3838",
+            "numbers": "#da52fc"
+        }
+    },
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+            // "ext": ["js", "json"]
+            // ^^ to set extensions to be beautified using the javascript beautifier
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+        // ^^ providing just an array sets the VS Code file type
+    },
+    "git.ignoreLimitWarning": true,
+}
